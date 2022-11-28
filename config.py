@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello, {first}\n\nThis is a Permanent FileStore Bot. I Can Store Private Files in Specified Channel And Other Users Can Access it From Special Link.\n\n👉 It Is A Private File Store Bot 🤣 If You Need To Use This Bot Message Me @Sk_Network_Offi")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
